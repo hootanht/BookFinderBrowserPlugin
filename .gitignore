@@ -1,21 +1,53 @@
-# .NET Core
-bin/
-obj/
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - Visual Studio
+.vs/
+*.suo
 *.user
 *.userosscache
-*.suo
-*.userprefs
+*.sln.docstates
 
-# Visual Studio files
-.vs/
-*.vscode/
-*.vssscc
-*_i.c
-*_p.c
-*.ncb
-*.sdf
-*.opensdf
-*.cachefile
+# .NET Core
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+*.dll
+*.pdb
+
+# Node/Extension
+**/node_modules/
+**/dist/
+**/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+**/logs
+*.log
+npm-debug.log*
+
+# Testing
+**/TestResults/
+[Cc]overage/
+*.coverage
+*.coveragexml
 
 # Build results
 [Dd]ebug/
@@ -34,19 +66,17 @@ bld/
 
 # Visual Studio cache/options directory
 .vs/
-
-# MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+*.suo
+*.user
+.vscode/
 
 # NuGet Packages
 *.nupkg
-# NuGet Symbol Packages
 *.snupkg
-# The packages folder can be ignored because of Package Restore
-**/[Pp]ackages/*
-# except build/, which is used as an MSBuild target.
-!**/[Pp]ackages/build/
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
 
 # User-specific files
 *.rsuser
@@ -56,8 +86,5 @@ bld/
 *.sln.docstates
 
 # Local development settings
-appsettings.Development.json
-appsettings.Local.json
-
-# Environment files
-.env 
+**/appsettings.Development.json
+**/appsettings.Local.json
