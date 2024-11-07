@@ -1,5 +1,7 @@
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Cors;
+using Swashbuckle.AspNetCore.SwaggerUI;
+using RefHubExtension.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +37,9 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddHttpClient();
+
+// Move the service registration BEFORE var app = builder.Build();
+builder.Services.AddScoped<IBookScraperService, BookScraperService>();
 
 var app = builder.Build();
 

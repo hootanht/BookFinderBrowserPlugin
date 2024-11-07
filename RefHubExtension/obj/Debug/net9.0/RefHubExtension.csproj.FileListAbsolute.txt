@@ -35,3 +35,4 @@ D:\repos\BookFinderBrowserPlugin\RefHubExtension\obj\Debug\net9.0\ref\RefHubExte
 D:\repos\BookFinderBrowserPlugin\RefHubExtension\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\repos\BookFinderBrowserPlugin\RefHubExtension\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\repos\BookFinderBrowserPlugin\RefHubExtension\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repos\BookFinderBrowserPlugin\RefHubExtension\obj\Debug\net9.0\RefHubExtension.sourcelink.json

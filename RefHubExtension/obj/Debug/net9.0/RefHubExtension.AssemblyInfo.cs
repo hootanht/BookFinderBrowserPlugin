@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RefHubExtension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c10a902f031be21b0828106508e6e2f8a6d90bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("RefHubExtension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RefHubExtension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,21 +2,18 @@
   "manifest_version": 3,
   "name": "Book Finder",
   "version": "1.0",
-  "description": "Find books related to the current page",
-  "permissions": [
-    "activeTab",
-    "storage"
-  ],
-  "host_permissions": [
-    "http://localhost:5181/*"
-  ],
+  "description": "Book Finder Browser Plugin",
   "action": {
     "default_popup": "popup.html"
   },
-  "icons": {
-    "16": "https://s3.refhub.ir/assets/images/logo.png",
-    "32": "https://s3.refhub.ir/assets/images/logo.png",
-    "48": "https://s3.refhub.ir/assets/images/logo.png",
-    "128": "https://s3.refhub.ir/assets/images/logo.png"
+  "permissions": [
+    "activeTab"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["popup.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
   }
 } 
