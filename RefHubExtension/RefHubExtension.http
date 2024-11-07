@@ -1,0 +1,6 @@
+@RefHubExtension_HostAddress = http://localhost:5181
+
+GET {{RefHubExtension_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
